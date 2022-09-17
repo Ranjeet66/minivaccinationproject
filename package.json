@@ -1,0 +1,33 @@
+{
+  "name": "m3-vaccination_test",
+  "version": "1.0.0",
+  "description": "vaccination mini project",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ranjeet singh",
+  "license": "ISC",
+  "dependencies": {
+    "aggregate": "^0.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.29.1",
+    "express": "^4.17.3",
+    "image-downloader": "^4.3.0",
+    "json-stringify": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-paginate": "^5.0.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.16",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
+  }
+}
